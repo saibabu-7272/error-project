@@ -1,5 +1,61 @@
 .App {
-  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background-color: rgb(207, 205, 205);
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(aliceblue, #ffffff);
+  padding:30px;
+  border:1px solid #707070;
+  border-radius: 5px;
+  height:300px;
+  width:300px;
+}
+.input-box{
+  height:30px;
+  border:1px solid #707070;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif
+}
+.label-text{
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #707070;
+}
+.submit-btn{
+  height:30px;
+  margin-top: 10px;
+  background-color: #2b90ee;
+  color:black; 
+  border:1px solid #707070;
+  border-radius: 3px;
+  color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.error-box{
+  background-color: rgb(255, 215, 215);
+  border:1px solid red;
+}
+
+.required{
+  color:red;
+}
+.error-msg{
+  color:red;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .App-logo {
